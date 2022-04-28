@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="FreeCRMAppTest">
+	<listeners>
+		<listener class-name="com.PageObjectModel.utilities.ExtentListener" />
+	</listeners>
+	<test thread-count="5" name="Test">
+		<!-- <classes> <class name="com.PageObjectModel.testcases.LoginPageTest" 
+			/> <class name="com.PageObjectModel.testcases.BaseClass" /> </classes> -->
+
+		<packages>
+			<package name="com.PageObjectModel.testcases.*" />
+		</packages>
+	</test> <!-- Test -->
+</suite> <!-- FreeCRMAppTest -->
