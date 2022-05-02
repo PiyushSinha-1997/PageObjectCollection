@@ -4,12 +4,16 @@
 	<listeners>
 		<listener class-name="com.PageObjectModel.utilities.ExtentListener" />
 	</listeners>
-	<test thread-count="5" name="Test">
-		<!-- <classes> <class name="com.PageObjectModel.testcases.LoginPageTest" 
-			/> <class name="com.PageObjectModel.testcases.BaseClass" /> </classes> -->
+	<test  name="Test">
+		<classes> 
+		<class name="com.PageObjectModel.testcases.BaseClass" /> 
+		<class name="com.PageObjectModel.testcases.LoginPageTest" /> 
+		<class name="com.PageObjectModel.testcases.HomePageTest" />
+		
+		</classes>
 
-		<packages>
+		<!-- <packages>
 			<package name="com.PageObjectModel.testcases.*" />
-		</packages>
+		</packages> -->
 	</test> <!-- Test -->
 </suite> <!-- FreeCRMAppTest -->

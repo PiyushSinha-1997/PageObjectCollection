@@ -1,25 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-04-28T17:35:55Z" name="FreeCRMAppTest" finished-at="2022-04-28T17:36:14Z" duration-ms="19678">
+  <suite started-at="2022-05-02T07:48:10Z" name="FreeCRMAppTest" finished-at="2022-05-02T07:49:10Z" duration-ms="59897">
     <groups>
     </groups>
-    <test started-at="2022-04-28T17:35:55Z" name="Test" finished-at="2022-04-28T17:36:14Z" duration-ms="19678">
-      <class name="com.PageObjectModel.testcases.LoginPageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.PageObjectModel.testcases.LoginPageTest@fa36558]" started-at="2022-04-28T17:35:56Z" name="setup" finished-at="2022-04-28T17:36:06Z" duration-ms="10641" status="PASS">
+    <test started-at="2022-05-02T07:48:10Z" name="Test" finished-at="2022-05-02T07:49:10Z" duration-ms="59897">
+      <class name="com.PageObjectModel.testcases.HomePageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.PageObjectModel.testcases.HomePageTest@32910148]" started-at="2022-05-02T07:48:11Z" name="setup" finished-at="2022-05-02T07:48:46Z" duration-ms="34973" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginPageTitleTest()[pri:1, instance:com.PageObjectModel.testcases.LoginPageTest@fa36558]" started-at="2022-04-28T17:36:06Z" name="loginPageTitleTest" finished-at="2022-04-28T17:36:06Z" duration-ms="129" status="PASS">
+        <test-method signature="verifyHomePagetitleTest()[pri:0, instance:com.PageObjectModel.testcases.HomePageTest@32910148]" started-at="2022-05-02T07:48:46Z" name="verifyHomePagetitleTest" finished-at="2022-05-02T07:48:54Z" duration-ms="8405" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePagetitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.PageObjectModel.testcases.HomePageTest@32910148]" started-at="2022-05-02T07:48:55Z" name="tearDown" finished-at="2022-05-02T07:48:56Z" duration-ms="1118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.PageObjectModel.testcases.HomePageTest -->
+      <class name="com.PageObjectModel.testcases.LoginPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.PageObjectModel.testcases.LoginPageTest@3f56875e]" started-at="2022-05-02T07:48:56Z" name="setup" finished-at="2022-05-02T07:49:02Z" duration-ms="6645" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginPageTitleTest()[pri:1, instance:com.PageObjectModel.testcases.LoginPageTest@3f56875e]" started-at="2022-05-02T07:49:02Z" name="loginPageTitleTest" finished-at="2022-05-02T07:49:02Z" duration-ms="27" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginPageTitleTest -->
-        <test-method signature="logintest()[pri:2, instance:com.PageObjectModel.testcases.LoginPageTest@fa36558]" started-at="2022-04-28T17:36:06Z" name="logintest" finished-at="2022-04-28T17:36:13Z" duration-ms="6735" status="PASS">
+        <test-method signature="logintest()[pri:2, instance:com.PageObjectModel.testcases.LoginPageTest@3f56875e]" started-at="2022-05-02T07:49:02Z" name="logintest" finished-at="2022-05-02T07:49:09Z" duration-ms="6565" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logintest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.PageObjectModel.testcases.LoginPageTest@fa36558]" started-at="2022-04-28T17:36:13Z" name="tearDown" finished-at="2022-04-28T17:36:14Z" duration-ms="1072" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.PageObjectModel.testcases.LoginPageTest@3f56875e]" started-at="2022-05-02T07:49:09Z" name="tearDown" finished-at="2022-05-02T07:49:10Z" duration-ms="876" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
