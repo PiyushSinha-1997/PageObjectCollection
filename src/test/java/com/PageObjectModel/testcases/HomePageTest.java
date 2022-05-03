@@ -3,6 +3,7 @@ package com.PageObjectModel.testcases;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import com.PageObjectModel.pages.ContactsPage;
 import com.PageObjectModel.pages.HomePage;
 import com.PageObjectModel.pages.LoginPage;
 
@@ -10,6 +11,7 @@ public class HomePageTest extends BaseClass {
 
 	public LoginPage login;
 	public HomePage homepage;
+	public ContactsPage contactspage;
 	@Test(priority = 1)
 	public void verifyHomePagetitleTest() {
 		
@@ -26,4 +28,10 @@ public class HomePageTest extends BaseClass {
 		Assert.assertTrue(homepage.VerifyCorrectUserName());
 		log.info("Verify User Name in HomePage");
 	}
+	
+	@Test(priority = 3)
+	public void clickonContactsPageTest() {
+		contactspage=homepage.clickonContactLink();
+	}
+	
 }

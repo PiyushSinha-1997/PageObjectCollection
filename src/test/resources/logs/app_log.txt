@@ -1,4 +1,2 @@
-INFO    2022-05-02 16:08:57,020 [main] com.PageObjectModel.testcases.BaseClass  - Log in Page before HomePage
-INFO    2022-05-02 16:09:05,872 [main] com.PageObjectModel.testcases.BaseClass  - Log into application
-INFO    2022-05-02 16:09:05,879 [main] com.PageObjectModel.testcases.BaseClass  - Taking HomePage title
-INFO    2022-05-02 16:09:06,368 [main] com.PageObjectModel.testcases.BaseClass  - Successfully logged into application
+INFO    2022-05-03 16:29:26,241 [main] com.PageObjectModel.testcases.BaseClass  - Successfully logged into application
+INFO    2022-05-03 16:29:33,719 [main] com.PageObjectModel.testcases.BaseClass  - Verify User Name in HomePage

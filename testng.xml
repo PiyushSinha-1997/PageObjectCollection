@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="FreeCRMAppTest">
+<suite name="FreeCRMAppTest Automation Suit">
 	<listeners>
 		<listener class-name="com.PageObjectModel.utilities.ExtentListener" />
 	</listeners>
@@ -9,10 +9,10 @@
 		<class name="com.PageObjectModel.testcases.BaseClass" /> 
 		<class name="com.PageObjectModel.testcases.LoginPageTest" /> 
 		<class name="com.PageObjectModel.testcases.HomePageTest" />
-		
+		<class name="com.PageObjectModel.testcases.ContactsPageTest" />
 		</classes>
 
-		<!-- <packages>
+	<!-- 	<packages>
 			<package name="com.PageObjectModel.testcases.*" />
 		</packages> -->
 	</test> <!-- Test -->

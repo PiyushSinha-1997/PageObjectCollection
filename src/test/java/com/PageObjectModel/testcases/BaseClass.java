@@ -77,7 +77,7 @@ public class BaseClass {
 			PropertyConfigurator.configure("./Log4j.properties");
 			WebDriverManager.firefoxdriver().setup();
 			driver = new FirefoxDriver();
-			driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+			driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 			driver.manage().window().maximize();
 			driver.get(ConfigReader.getApplicationURL());
 			usrname = ConfigReader.getusername();

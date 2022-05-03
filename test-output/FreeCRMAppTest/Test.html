@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>3/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>0/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Mon May 02 16:08:35 IST 2022</td>
+<td>Started on:</td><td>Tue May 03 16:16:40 IST 2022</td>
 </tr>
-<tr><td>Total time:</td><td>35 seconds (35403 ms)</td>
+<tr><td>Total time:</td><td>44 seconds (44910 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,40 +75,12 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.PageObjectModel.testcases.HomePageTest.VerifyUserNameTest()'><b>VerifyUserNameTest</b><br>Test class: com.PageObjectModel.testcases.HomePageTest</td>
-<td><div><pre>org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DESKTOP-KPHMMFU&apos;, ip: &apos;192.168.1.5&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.14&apos;
-Driver info: driver.version: RemoteWebDriver
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy15.isDisplayed(Unknown Source)
-	at com.PageObjectModel.pages.HomePage.VerifyCorrectUserName(HomePage.java:43)
-	at com.PageObjectModel.testcases.HomePageTest.VerifyUserNameTest(HomePageTest.java:26)
-... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1998371610", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1998371610'><pre>org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DESKTOP-KPHMMFU&apos;, ip: &apos;192.168.1.5&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.14&apos;
-Driver info: driver.version: RemoteWebDriver
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy15.isDisplayed(Unknown Source)
-	at com.PageObjectModel.pages.HomePage.VerifyCorrectUserName(HomePage.java:43)
-	at com.PageObjectModel.testcases.HomePageTest.VerifyUserNameTest(HomePageTest.java:26)
+<td title='com.PageObjectModel.testcases.ContactsPageTest.verifycontactPagelabelTest()'><b>verifycontactPagelabelTest</b><br>Test class: com.PageObjectModel.testcases.ContactsPageTest</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.PageObjectModel.testcases.ContactsPageTest.verifycontactPagelabelTest(ContactsPageTest.java:18)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1071933072", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1071933072'><pre>java.lang.NullPointerException
+	at com.PageObjectModel.testcases.ContactsPageTest.verifycontactPagelabelTest(ContactsPageTest.java:18)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -135,33 +107,15 @@ Driver info: driver.version: RemoteWebDriver
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>0</td>
-<td>com.PageObjectModel.testcases.HomePageTest@610f7aa</td></tr>
+<td>10</td>
+<td>com.PageObjectModel.testcases.ContactsPageTest@3e96bacf</td></tr>
 <tr>
-<td title='com.PageObjectModel.testcases.HomePageTest.VerifyUserNameTest()'><b>VerifyUserNameTest</b><br>Test class: com.PageObjectModel.testcases.HomePageTest</td>
-<td><div><pre>org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DESKTOP-KPHMMFU&apos;, ip: &apos;192.168.1.5&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.14&apos;
-Driver info: driver.version: RemoteWebDriver
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
-	at com.PageObjectModel.testcases.BaseClass.capturescreenshot(BaseClass.java:44)
-	at com.PageObjectModel.utilities.ExtentListener.onTestFailure(ExtentListener.java:41)
-... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace911857585", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace911857585'><pre>org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DESKTOP-KPHMMFU&apos;, ip: &apos;192.168.1.5&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.14&apos;
-Driver info: driver.version: RemoteWebDriver
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
-	at com.PageObjectModel.testcases.BaseClass.capturescreenshot(BaseClass.java:44)
-	at com.PageObjectModel.utilities.ExtentListener.onTestFailure(ExtentListener.java:41)
+<td title='com.PageObjectModel.testcases.ContactsPageTest.verifycontactPagelabelTest()'><b>verifycontactPagelabelTest</b><br>Test class: com.PageObjectModel.testcases.ContactsPageTest</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.PageObjectModel.utilities.ExtentListener.onTestFailure(ExtentListener.java:43)
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1198450099", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1198450099'><pre>java.lang.NullPointerException
+	at com.PageObjectModel.utilities.ExtentListener.onTestFailure(ExtentListener.java:43)
 	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:67)
 	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1389)
 	at org.testng.internal.Invoker.invokeMethod(Invoker.java:636)
@@ -185,31 +139,8 @@ Driver info: driver.version: RemoteWebDriver
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>1</td>
-<td>com.PageObjectModel.testcases.HomePageTest@610f7aa</td></tr>
-</table><p>
-<table width='100%' border='1' class='invocation-passed'>
-<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='com.PageObjectModel.testcases.LoginPageTest.loginPageTitleTest()'><b>loginPageTitleTest</b><br>Test class: com.PageObjectModel.testcases.LoginPageTest</td>
-<td></td>
-<td>0</td>
-<td>com.PageObjectModel.testcases.LoginPageTest@3098cf3b</td></tr>
-<tr>
-<td title='com.PageObjectModel.testcases.LoginPageTest.logintest()'><b>logintest</b><br>Test class: com.PageObjectModel.testcases.LoginPageTest</td>
-<td></td>
-<td>0</td>
-<td>com.PageObjectModel.testcases.LoginPageTest@3098cf3b</td></tr>
-<tr>
-<td title='com.PageObjectModel.testcases.HomePageTest.verifyHomePagetitleTest()'><b>verifyHomePagetitleTest</b><br>Test class: com.PageObjectModel.testcases.HomePageTest</td>
-<td></td>
-<td>8</td>
-<td>com.PageObjectModel.testcases.HomePageTest@610f7aa</td></tr>
+<td>11</td>
+<td>com.PageObjectModel.testcases.ContactsPageTest@3e96bacf</td></tr>
 </table><p>
 </body>
 </html>

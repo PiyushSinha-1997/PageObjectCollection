@@ -28,7 +28,7 @@ public String verifyHomePagetitle() {
 }
  public ContactsPage clickonContactLink() {
 	 contactslink.click();
-	 return new ContactsPage();
+	 return new ContactsPage(driver);
  }
 public DealsPage clickonDealsPage() {
 	DealsLink.click();
